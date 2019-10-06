@@ -1,0 +1,149 @@
+main.css
+body {
+	font-family: Lucidatypewriter, monospace;
+	font-weight: 300;
+}
+h3 {
+	color: #00224d;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .row,
+footer .row{
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+	display: flex;
+  align-items: center; 
+	background-image: url('https://www.dailydot.com/wp-content/uploads/2018/10/olli-the-polite-cat.jpg');
+	background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #6c7d8f;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+h1 {
+	color: #8f6c7d;
+}
+
+header h1 {
+	font-weight: 700;
+	margin: 0;
+}
+
+footer {
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.pics_in_a_row {
+  display: flex;
+  flex: calc(600/800);
+}
+
+section .secondcat img{
+  flex: calc(600/800);
+}
+
+.img1 { flex: 1.2000; margin-right: 20px; }
+.img2 { flex: 1.0760; }
+
+.description {
+  color: #695469;
+}
+.description em {
+  color: #695469;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+  display: block;
+  margin-top: 45px;
+}
+
+
+
+
